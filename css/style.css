@@ -1,10 +1,79 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #EEEEEE;
+  color: #111111;
+  font-size: 16px;
+}
+
+p {
+  color: #222222;
+  font-family: 'Lora', 'Times New Roman', 'Times', serif;
+  line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+} /* make all headings Open Sans */
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #3377FF;
+  line-height: 2em;
+  padding-top: .2em;
+}  /* bold sans h1 */
+
+h2 {
+  font size: 2em;
+  font-weight: 600;
+  line-height: 2em;
+  padding-bottom: 1em;
+}  /* bold semi h2, not currently in use */
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding-bottom: 1em;
+}  /* bold semi h3 */
+
+figcaption {
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 90%;
+  padding-top: .2em;
+} /* caption sans semi, reduce size */
+
+.author {
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}  /* bold author slugline */
+
+a:link, a:active, a:visited, a:hover {
+  text-decoration: none;
+    color: #3377FF;
+} /* remove link underlines */
+
+a:link {
+    color: #DDEEFF;
+}
+
+a:visited {
+    color: #AACCFF;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:active {
+    color: #000000;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.85); /* reduce nav bar opacity */
   float: left;
   position: fixed;
   width: 100%;
